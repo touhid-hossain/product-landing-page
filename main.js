@@ -42,8 +42,8 @@ document.querySelector(".close_Btn").style.cursor = "pointer";
 
 // toggle bookmark image
 bookMark.addEventListener("click", (e) => {
-  let bookMarkPath = "/images/icon-bookmark.svg";
-  let bookMarkCyanPath = "/images/icon-bookmark-cyan.svg";
+  let bookMarkPath = "/product-landing-page/images/icon-bookmark.svg";
+  let bookMarkCyanPath = "/product-landing-page/images/icon-bookmark-cyan.svg";
   const fullPath = e.target.src;
   console.log(fullPath);
   const origin = new URL(fullPath).origin;
